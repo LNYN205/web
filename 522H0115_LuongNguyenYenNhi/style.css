@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    background-color: rgb(234, 251, 234);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.click li, .click a{
+    color: lightpink;
+    font-size: 20px;
+    padding-right: 20px;
+    font-family: Copperplate Gothic Light;
+}
+  
+.logo {
+    display: flex;
+    align-items: center;
+    margin: center;
+    padding: center;
+    color: lightpink;
+    justify-content: space-around;
+    padding-right: 10px;
+}
+
+.logo img{
+    padding-right: 25px;
+}
+.logo h1{
+    display: inline-block;
+    margin: auto;
+    font-size: 80px;
+    font-family: Brush Script MT;
+}
+  
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    color: lightpink;
+}
+  
+nav ul li a:hover {
+    color: rgb(164, 91, 91);
+}
+  
+main {
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+  
+.intro {
+    text-align: center;
+}
+  
+.intro img {
+    width: 60%;
+    border-radius: 50%;
+}
+.name{
+    font-family: Brush Script MT;
+    font-size: 35px;
+    font-weight: 100;
+}
+.what{
+    text-align: left;
+    font-style: italic;
+}
+.mj img, .dy img{
+    width: 100%;
+    max-width: 500px;
+}
+.mj table, .dy table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mj h1{
+    text-align: center;
+    background-color: black;
+    color: rosybrown;
+    font-family:  Baskerville Old Face, Garamond;
+    font-size: 24px;
+}
+
+.dy h1{
+    text-align: center;
+    background-color: tan;
+    color: navy;
+    font-family:  Courier;
+    font-size: 22px;
+}
+.text em{
+    font-size: medium;
+    color: darkgray;
+}
+.text button{
+    background-color: rgb(227, 238, 227);
+    border: solid rgb(219, 155, 165);
+    color: rgb(219, 155, 165);
+}
+.text button:hover, .find button:hover{
+    background-color: rgb(163, 204, 163);
+}
+.about, .find {
+    text-align: center;
+}
+
+.find button {
+    padding: 8px 15px;
+    background-color:rgb(204, 225, 204) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.dresses, .shirts, .pants, .skirts, .swimwear, .clt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#dresses h1, #shirts h1, #pants h1, #skirts h1, #swimwear h1{
+    font-family: Papyrus;
+    color: rgb(110, 109, 109);
+    font-size: 40px;
+}
+.clt p{
+    font-family: Papyrus;
+    color: rgb(55, 55, 55);
+    font-size: 20px;
+    font-weight: 700;
+}
+.product {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.clt div{
+    width: 330px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product p {
+    margin: 10px 0;
+}
+  
+footer {
+    background-color: rgb(231, 188, 194);
+    color: rgb(221, 249, 221);
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+footer table {
+    width: 100%; 
+    margin: 0;
+}
+.hidden{
+    display: none;
+}

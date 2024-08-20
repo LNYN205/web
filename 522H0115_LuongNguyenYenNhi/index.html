@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>y3hIn Store</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="y3hIn.jpg" alt="Logo shop" width="100" height="100">
+                <h1 >y3hIn Store<br></h1>
+            </div>
+            <nav class="click">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li ><a href="about.html">About</a></li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="intro">
+                <h2>Welcome to <em class="name">y3hIn</em> Store</h2>
+                <p><i>"Fashion trends are increasing, so we launched the y3hIn brand in 2023 to contribute to creating value for women" - founder of the brand, Lynn</i></p>
+                <img src="anhbia1.jpg" alt="Cover Image">
+            </section>
+            <section class="mj">
+                <h1>Majestic</h1>
+                <table>
+                    <tr>
+                        <td><img src="mj1.jpg" alt="Image 4" ></td>
+                        <td><img src="mj2.jpg" alt="Image 2" ></td>
+                        <td><img src="mj3.jpg" alt="Image 5" ></td>
+                    </tr>
+                </table>
+            </section>
+            <section class="dy">
+                <h1>Dynamic</h1>
+                <table>
+                    <tr>
+                        <td><img src="dy1.jpg" alt="Image 2" ></td>
+                        <td><img src="dy2.jpg" alt="Image 3" ></td>
+                        <td><img src="dy3.jpg" alt="Image 5" ></td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <div class="text">
+                    <em>Below are the collections that will launch soon this year.</em> 
+                    <button id="showMoreButton">Show More</button>
+                </div>
+            </section>
+            <section id="hiddenSection" class="hidden">
+                <div class="clt">
+                    <div class="product">
+                        <img src="clt1.jpg" alt="Product Image">
+                        <p>"Barbie"</p>
+                    </div>
+                    <div class="product">
+                        <img src="clt2.jpg" alt="Product Image">
+                        <p>"Dark Queen"</p>
+                    </div>
+                    <div class="product">
+                        <img src="clt3.jpg" alt="Product Image">
+                        <p>"Student"</p>
+                    </div>
+                    <div class="product">
+                        <img src="clt4.jpg" alt="Product Image">
+                        <p>"Dutch Lady"</p>
+                    </div>
+                    <div class="product">
+                        <img src="clt5.jpg" alt="Product Image">
+                        <p>"Special Day"</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>	
+            <table>
+                <tr>
+                    <th>Address</th>
+                    <th>Social Media</th>
+                    <th>Contact</th>
+                </tr>
+                <tr>    
+                    <td>
+                        <ul>
+                            District 1 - No.5 Le Duan Street, Nguyen Cu Trinh Ward, Ho Chi Minh City<br>
+                            District 10 - No.20 Su Van Hanh Street, Ward 4, Ho Chi Minh City.
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            Facebook: y3hIn BRAND<br>
+                            Instagram: y3hInofficial.brand
+                        </ul>
+                    </td> 
+                    <td>
+                        <ul>
+                            Phone number: 0774-180-210<br>
+                            Hotline: 19001234<br>
+                            Email: 522H0115@student.tdtu.edu.vn
+                        </ul>
+                    </td>
+            </table>
+                <div>
+                    <p>Copyright © 2023 y3hIn Ltd</a></p>
+                </div>   
+        </footer>
+        <script>
+            const showMoreButton = document.getElementById('showMoreButton');
+            const hiddenSection = document.getElementById('hiddenSection');
+            const revealText = document.getElementById('revealText');
+    
+            showMoreButton.addEventListener('click', function() {
+                hiddenSection.classList.toggle('hidden');
+                if (hiddenSection.classList.contains('hidden')) {
+                    showMoreButton.textContent = 'Show More';
+                    revealText.textContent = 'They will be revealed soon...';
+                } else {
+                    showMoreButton.textContent = 'Show Less';
+                    revealText.textContent = '';
+                }
+            });
+        </script>
+    </body>
+</html>
